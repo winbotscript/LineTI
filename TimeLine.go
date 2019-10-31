@@ -75,10 +75,10 @@ const (
 	TIMELINE49  = HOST + "/mh/api/v50/birthday/template/list.json"
 
 	// Announce
-	TIMELINE50  = HOST + "/mh/api/v50/announce/create.json"
-	TIMELINE51  = HOST + "/mh/api/v50/announce/delete.json"
-	TIMELINE52  = HOST + "/mh/api/v50/announce/postlist.json"
-	TIMELINE53  = HOST + "/mh/api/v50/announce/list.json"
+	TIMELINE50  = HOST + "/mh/api/v50/announce/create.json" // homeId + postId
+	TIMELINE51  = HOST + "/mh/api/v50/announce/delete.json" // homeId + postId
+	TIMELINE52  = HOST + "/mh/api/v50/announce/postlist.json" // homeId + scrollId
+	TIMELINE53  = HOST + "/mh/api/v50/announce/list.json" // homeId
 
 	// Feed
 	TIMELINE54  = HOST + "/mh/api/v50/feed/list.get" // postLimit + likeLimit + commentLimit + requestTime
